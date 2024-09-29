@@ -16,7 +16,6 @@ mongoose.connect(process.env.MONGO_URI, {
     useUnifiedTopology: true,
 }).then(() => console.log('MongoDB Connected')).catch((err) => console.log(err));
     
-}).then(() => console.log('MongoDB Connected')).catch((err) => console.log(err));
 
 // API Routes
 const postRoutes = require('./routes/post');
